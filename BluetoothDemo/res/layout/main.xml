@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/SolIleriButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:background="@null"
+            android:src="@drawable/sol_ileri_button" />
+
+        <ImageButton
+            android:id="@+id/IleriButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:src="@drawable/ileri_button" />
+        
+        <ImageButton
+            android:id="@+id/SagIleriButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:background="@null"
+            android:src="@drawable/sag_ileri_button" />
+
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/SolButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:background="@null"
+            android:src="@drawable/sol_button" />
+
+        <ImageButton
+            android:id="@+id/DurButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:src="@drawable/dur_button" />
+        
+        <ImageButton
+            android:id="@+id/SagButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:background="@null"
+            android:src="@drawable/sag_button" />
+
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/SolGeriButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:background="@null"
+            android:src="@drawable/sol_geri_button" />
+
+        <ImageButton
+            android:id="@+id/GeriButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@null"
+            android:src="@drawable/geri_button" />
+        
+        <ImageButton
+            android:id="@+id/SagGeriButton"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:clickable="true"
+            android:background="@null"
+            android:src="@drawable/sag_geri_button" />
+
+        
+    </LinearLayout>
+
+</LinearLayout>
